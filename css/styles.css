@@ -6,72 +6,71 @@ body {
   background-color: hsl(0, 52%, 82%);
 }
 
-header, footer {
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #d88c8c;
-    padding: 1px;
-    color: white;
-    
-}
-
-/* id is above h1, header, and body */
-#header{
+header,
+footer {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #d88c8c;
+  padding: 1px;
   color: white;
 }
 
-h1, h2{
+/* id is above h1, header, and body */
+#header {
+  color: white;
+}
+
+h1,
+h2 {
   font-family: Georgia, serif;
   font-weight: normal;
   color: #014f86; /* Primary color */
 }
 
 main {
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* move the bullet points closer to list */
 .bullet-points {
-    padding-right: 50px;
-    list-style-position: inside;
-    
+  padding-right: 50px;
+  list-style-position: inside;
 }
-  
 
 form {
-     background-color: #ecd8d8;
+  background-color: #ecd8d8;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   font-size: 16px;
-  
 }
 
 fieldset {
-    border: 1px solid #8d8989;
+  border: 1px solid #8d8989;
   border-radius: 8px;
   margin-bottom: 35px;
   padding: 20px;
 }
 
-legend{
-    font-weight: bold;
+legend {
+  font-weight: bold;
   padding: 0 10px;
-
 }
 
-label{
-    display: block;
+label {
+  display: block;
   margin-bottom: 6px;
   margin-top: 15px;
   font-weight: 500;
 }
 
-input, select, textarea {
-   width: 90%;
+input,
+select,
+textarea {
+  width: 90%;
   padding: 9px;
   margin-top: 4px;
   border: 1px solid #ccc;
@@ -84,20 +83,17 @@ input, select, textarea {
 input:focus,
 select:focus,
 textarea:focus {
-   border-color: #0077cc;
+  border-color: #0077cc;
   outline: none;
   box-shadow: 0 0 5px rgba(0, 119, 204, 0.3);
-  
 }
 
 input[type="checkbox"] {
   margin-top: 20px;
 }
 
-
-
 button {
-    background-color: #0077cc;
+  background-color: #0077cc;
   color: white;
   border: none;
   padding: 12px 24px;
@@ -109,11 +105,10 @@ button {
 }
 
 button:hover {
-    background-color: #005fa3;
+  background-color: #005fa3;
 }
 
-
 img {
-    width: 500px;
-    height: auto;    
+  width: 500px;
+  height: auto;
 }

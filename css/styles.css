@@ -1,16 +1,30 @@
-*{
-    
-}
-
 body {
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  background-color: hsl(0, 52%, 82%);
 }
 
 header, footer {
     width: 600px;
     margin: 0 auto;
     text-align: center;
+    background-color: #d88c8c;
+    padding: 1px;
+    color: white;
     
+}
+
+/* id is above h1, header, and body */
+#header{
+  color: white;
+}
+
+h1, h2{
+  font-family: Georgia, serif;
+  font-weight: normal;
+  color: #014f86; /* Primary color */
 }
 
 main {
@@ -19,9 +33,13 @@ main {
     text-align: center;
 }
 
-h1, h2{
-  
+/* move the bullet points closer to list */
+.bullet-points {
+    padding-right: 50px;
+    list-style-position: inside;
+    
 }
+  
 
 form {
      background-color: #ecd8d8;
@@ -76,10 +94,6 @@ input[type="checkbox"] {
   margin-top: 20px;
 }
 
-.radio {
-    
-}
-
 
 
 button {
@@ -98,9 +112,6 @@ button:hover {
     background-color: #005fa3;
 }
 
-footer {
-
-}
 
 img {
     width: 500px;
